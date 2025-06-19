@@ -22,6 +22,8 @@ Converts text to speech using IVONA 2 Maxim OEM voice on Windows servers.
    - Verify installation via:  
      `Control Panel > Speech Recognition > Text to Speech`
 
-2. Install FFmpeg:
-   ```powershell
-   choco install ffmpeg -y
+2. Install FFmpeg (version for Windows) and put ffmpeg folder to drive C:\, must be C:\ffmpeg
+
+## RUN
+ ```bash
+   python app.py
