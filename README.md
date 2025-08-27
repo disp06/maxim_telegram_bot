@@ -11,7 +11,7 @@ Converts text to speech using IVONA 2 Maxim OEM voice on Windows servers.
 
 ## Prerequisites
 1. **Windows Server** (Tested on Windows Server 2019)
-2. **IVONA 2 Maxim OEM** TTS engine ([Download](https://www.ivona.com/us/for-business/speech-cloud/))
+2. **IVONA 2 Maxim OEM** TTS engine
 3. **FFmpeg** ([Install guide](https://www.ffmpeg.org/download.html))
 4. Python 3.10+
 
