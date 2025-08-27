@@ -1,29 +1,29 @@
 # IVONA Maxim TTS Telegram Bot
 
-Converts text to speech using IVONA 2 Maxim OEM voice on Windows servers.
+Преобразует текст в речь с использованием голоса IVONA 2 Maxim OEM на серверах Windows.
 
-## Features
-- Process text messages and .txt files
-- Split large texts into 10,000-character chunks
-- Generate MP3 audio using IVONA Maxim voice
-- Streamline audio delivery via Telegram
-- Persistent logging with daily rotation
+## Возможности
+- Обработка текстовых сообщений и файлов .txt
+- Разделение больших текстов на фрагменты по 7500 символов
+- Генерация аудио в формате MP3 с помощью голоса IVONA Maxim
+- Streamline доставка аудио через Telegram
+- Ведение логов с ежедневной ротацией
 
-## Prerequisites
-1. **Windows Server** (Tested on Windows Server 2019)
-2. **IVONA 2 Maxim OEM** TTS engine
-3. **FFmpeg** ([Install guide](https://www.ffmpeg.org/download.html))
+## Предварительные требования
+1. Windows Server (тестировалось на Windows Server 2019)
+2. IVONA 2 Maxim OEM TTS-движок
+3. **FFmpeg** ([Инструкция по установке](https://www.ffmpeg.org/download.html))
 4. Python 3.10+
 
-## Installation
-1. Install IVONA 2 Maxim:
-   - Download installer from official source
-   - Complete installation (voice will appear in Windows TTS voices)
-   - Verify installation via:  
-     `Control Panel > Speech Recognition > Text to Speech`
+## Установка
+1. Установите IVONA 2 Maxim:
+   - Скачайте установщик из официального источника
+   - Завершите установку (голос появится в списке TTS-голосов Windows)
+   - Проверьте установку через:  
+     `Панель управления > Распознавание речи > Преобразование текста в речь`
 
-2. Install FFmpeg (version for Windows) and put ffmpeg folder to drive C:\, must be C:\ffmpeg
+2. Установите FFmpeg (версия для Windows) и разместите папку ffmpeg на диске C:, должен быть путь C:\ffmpeg
 
-## RUN
+## Запуск
  ```bash
    python app.py
